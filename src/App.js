@@ -65,7 +65,7 @@ And here. | Okay. | I think we get it.
       </div>
       <div className="results">
         <div className="nav">
-          <h1>Results</h1>
+          <h1>Previewer</h1>
         </div>
         <div className="result-display">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{text}</ReactMarkdown>
