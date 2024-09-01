@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  background-color: #61dafb;
 }
 
 .App-logo {
@@ -35,4 +40,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  background-color: #7fa7f0;
+  height: 50px;
+}
+
+h1 {
+  font-size: 25px;
+}
+textarea {
+  font-size: 15px;
+}
+.result-display {
+  background-color: #fff;
+  height: 1000px;
+  width: 650px;
+  margin-top: -17px;
+  text-align: start;
+  margin-bottom: 50px;
 }
